@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: "mongoose",
       settings: {
-        uri: env("DATABASE_URI", "mongodb://localhost:27017/shopdt"), // Sử dụng 'DATABASE_URI' trong tệp .env
+        uri: env("DATABASE_URI", "mongodb://localhost:27017/demo"), // Sử dụng 'DATABASE_URI' trong tệp .env
       },
       options: {
         ssl: false,
